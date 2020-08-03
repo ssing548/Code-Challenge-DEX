@@ -1,0 +1,92 @@
+.toolbar {
+  height: 60px;
+  margin: -8px;
+  display: flex;
+  align-items: center;
+  background:#1566b7;
+  font-weight: bold;
+  text-shadow: 0px 2px 3px #02182e;
+}
+
+.title {
+  font-family: monospace;
+  color: floralwhite;
+  font-size: x-large;
+  margin:auto;
+}
+
+svg#clouds {
+  position: fixed;
+  bottom: -160px;
+  left: -230px;
+  z-index: -10;
+  width: 1920px;
+}
+
+#location-table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  background-color: #ccc;
+  width: 70%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+#location-table td, #location-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#location-table tr:nth-child(even){background-color: #f2f2f2;}
+
+#location-table tr:hover {background-color: #66b3ff;}
+
+#location-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.info-form{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  padding: 25px 20px;
+  margin-left: 35%;
+}
+
+.info-form input{
+  padding: 6px 10px;
+  margin: 8px 5px;
+  display:inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+}
+
+.info-form button {
+  padding: 3px 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: white; 
+  border: 2px solid #4CAF50;
+  border-radius: 4px;
+}
+
+.info-form button:hover {
+  background-color: #4CAF50;
+  box-shadow: 3px 3px 10px #8888;
+  color: white;
+}
+
+.result-section{
+  padding: 20px 40px;
+  font-weight: 800;
+  font-size: larger;
+  font-family: monospace;
+  margin-left: 30%;
+}
+
